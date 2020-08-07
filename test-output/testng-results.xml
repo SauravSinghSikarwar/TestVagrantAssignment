@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="10076" started-at="2020-08-07T19:31:05 IST" finished-at="2020-08-07T19:31:15 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="10076" started-at="2020-08-07T19:31:05 IST" finished-at="2020-08-07T19:31:15 IST">
+      <class name="automationTests.AssignmentTests">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:automationTests.AssignmentTests@69a3d1d]" name="startReport" is-config="true" duration-ms="113" started-at="2020-08-07T19:31:05 IST" finished-at="2020-08-07T19:31:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="weatherDataComparison()[pri:0, instance:automationTests.AssignmentTests@69a3d1d]" name="weatherDataComparison" duration-ms="9716" started-at="2020-08-07T19:31:05 IST" finished-at="2020-08-07T19:31:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weatherDataComparison -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:automationTests.AssignmentTests@69a3d1d]" name="getResult" is-config="true" duration-ms="3" started-at="2020-08-07T19:31:15 IST" finished-at="2020-08-07T19:31:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=weatherDataComparison status=SUCCESS method=AssignmentTests.weatherDataComparison()[pri:0, instance:automationTests.AssignmentTests@69a3d1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:automationTests.AssignmentTests@69a3d1d]" name="endReport" is-config="true" duration-ms="217" started-at="2020-08-07T19:31:15 IST" finished-at="2020-08-07T19:31:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- automationTests.AssignmentTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
